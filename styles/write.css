@@ -1,0 +1,38 @@
+.links :nth-child(2){
+    font-weight: bold;
+	letter-spacing: 2px;
+	color:#fff;
+    padding-bottom: 2px;
+    border-bottom: 5px #fff solid;
+    border-radius: 5px;
+}
+
+#vimbox{
+    border-top: 10px solid #000;
+    padding: 100px 150px;
+    height: 700px;
+    background-color: #fe8026;
+    font-family: Lucida Console, Lucida Sans, Lucida Sans Typewriter, monaco, bitstream vera sans Mono, monospace;
+}
+
+.vimcursor{
+    background: #efefef;
+}
+
+.background{
+    padding: 100px;
+    background-image: url(../images/background1.jpg);
+    height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#vimmode{
+    background-color: #fe8026;
+    color: #000;
+    padding: 7px;
+    width: 85px;
+    border-radius: 2px;
+    margin-top: 15px;
+}
