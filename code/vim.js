@@ -59,7 +59,7 @@ function outputGrid(){
     var output = "";
     for (var i = 0; i < grid.length; i++){
         for (var j = 0; j < grid[i].length; j++){
-            if (i == currentRow && j == currentCol){
+            if (i == currentRow && j+1 == currentCol){
                 output += "<span class=vimcursor>"+ grid[i][j] +"</span>";
             } else {
                  output += grid[i][j];
