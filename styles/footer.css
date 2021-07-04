@@ -1,0 +1,38 @@
+.footer{
+    background-color: #000;
+    display: grid;
+    grid-gap: 10px;
+    align-items: center;
+    height: 350px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.logo img{
+    height: 100px;
+}
+
+.info a{
+    padding: 30px;
+    color: #fe8026;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.social i{
+    color: #fe8026;
+    font-size: 2em;
+}
+
+.footer > .links{
+    margin: auto;
+}
+
+.footer > .social{
+    margin: auto;
+}
